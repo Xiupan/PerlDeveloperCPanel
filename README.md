@@ -11,7 +11,7 @@ with Perl 5.8 installed.
 1. Write a simple Perl module that will contain all the necessary subroutines to do the
 following:
 ~• locate all files in a specified directory and sub-directories that are world writable~
-• remove the world write permission without altering the user or group permissions
+~• remove the world write permission without altering the user or group permissions~
 Your final version may rely upon modules provided by CPAN, but if so your module must be
 packaged to ensure that any dependencies are installed. Usage of only Core Perl modules does
 not require packaging. Your module must use Perl solely for gathering and manipulating the file
