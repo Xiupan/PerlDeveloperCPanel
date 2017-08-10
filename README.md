@@ -16,9 +16,9 @@ Your final version may rely upon modules provided by CPAN, but if so your module
 packaged to ensure that any dependencies are installed. Usage of only Core Perl modules does
 not require packaging. Your module must use Perl solely for gathering and manipulating the file
 system permissions.
-2. Create and provide a small script which utilizes your module. It must accept the
+~2. Create and provide a small script which utilizes your module. It must accept the
 directory or directories to be searched on the command line. The script should
-operate in a verbose mode as specified by the “--verbose” flag.
+operate in a verbose mode as specified by the “--verbose” flag.~
 3. Write a test script for the aforementioned module that utilizes Test::More from CPAN.
 4. Create another script utilizing your module that takes an additional user argument.
 The searching and permission changes should occur with the effective UID of the
