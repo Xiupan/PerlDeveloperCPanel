@@ -1,6 +1,6 @@
 # use MyModule;
-# MyModule::trim("Poop Poop Poop");
+# MyModule::trim("Stuff");
 
-open(my $in,  "<",  "input.txt")  or die "Can't open input.txt: $!";
-my @lines  = <$in>;
-print @lines;
+# open(my $in,  "<",  "input.txt")  or die "Can't open input.txt: $!";
+# my @lines  = <$in>;
+# print @lines;

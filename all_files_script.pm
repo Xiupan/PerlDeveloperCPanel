@@ -1,6 +1,7 @@
 package AllFilesFinder;
 use strict;
 use diagnostics -verbose;
+use Test::More;
 
 sub findAll {
   my $path = shift;

@@ -20,6 +20,6 @@ system permissions.
 directory or directories to be searched on the command line. The script should
 operate in a verbose mode as specified by the “--verbose” flag.~
 3. Write a test script for the aforementioned module that utilizes Test::More from CPAN.
-4. Create another script utilizing your module that takes an additional user argument.
+4. ~Create another script utilizing your module that takes an additional user argument.
 The searching and permission changes should occur with the effective UID of the
-user passed as an argument.
+user passed as an argument.~
